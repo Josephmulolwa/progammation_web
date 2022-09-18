@@ -1,0 +1,76 @@
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgba(201, 243, 243, 0.3) !important;
+}
+a{
+    text-decoration: none !important;
+}
+/******* header *******/
+@media(max-width:768px){
+    .header-social-icons{
+        display: none;
+    }
+}
+/******** Navbar ************/
+.navbar-nav .nav-link{
+    font-size: 18px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+.navbar-toggler{
+    outline: none !important;
+    padding: none !important;
+}
+/************************/
+
+/********** carousel *********/
+.carousel-inne .carousel-item{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-inne .carousel-item::before{
+    content: '';
+    background-color: rgba(12, 11, 10, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/********************************/
+/******* course ***********/
+.course .box{
+    padding: 10px 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+/***************************/
+/******** events **********/
+.events .box{
+    padding: 10px 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+/***************************/
+#image_one{
+    border-radius: 20px;
+}
+.back-top-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 50%;
+    
+
+}
+.back-top-btn.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-10px);
+}
